@@ -1,18 +1,15 @@
-# Program #3: Average Rainfall
-# Write a program that uses nested loops to collect data and calculate the average 
-# rainfall over a period of years.  
-# The program should first ask for the number of years.  
-# The outer loop will iterate once for each year. 
-# The inner loop will iterate twelve times, once for each month.  
-# Each iteration of the inner loop will ask the user for inches of rainfall for each month.  
-# After all iterations, the program should display the number of months, 
-# the total inches of rainfall, and the average rainfall per month for the entire period.
+# Eliya Statema
+# 2/12/25
+# Budget Analysis Pseudocode
 
-def main():
-    ######################
-    # WRITE YOUR CODE HERE
-    ######################    
-
-
-if __name__ == '__main__':
-    main()
+# Prompt the user to INPUT budgeted amount for the month
+# Use a loop to have the user INPUT expenses for the month
+# IF INPUT is negative, DISPLAY error code and receive INPUT again
+# ADD to a running total of expenses
+# Use 0 to end loop
+# CALCUlATE difference between total and budget
+# DISPLAY budget, total spent, difference
+# IF total spent is GREATER than budgeted amount, result should include
+#    'You are over budget'
+# IF total spent is LESS than budget amount, result should include
+#   'You are under budget'
